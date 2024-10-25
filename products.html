@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products (Active)</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main> <section id="product-list">
+      </section>
+      
+    <section id="add-product-form">
+      <h2>Add New Product</h2>
+      <form id="image-upload-form">
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name" name="product-name" required><br>
+
+        <label for="product-price">Product Price:</label>
+        <input type="number" id="product-price" name="product-price" required><br> <label for="product-image">Upload Product Image:</label>
+        <input type="file" id="product-image" name="product-image" accept="image/*" required><br><br>
+
+        <input type="submit" value="Add Product">
+      </form>
+
+      <div id="product-preview"></div> </section>
+  </main>
+
+  <footer>
+    <p>© 2024 My Anime Store</p>
+  </footer>
+</body>
+</html>
+
